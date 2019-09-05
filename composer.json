@@ -3,7 +3,7 @@
     "description": "It contain broadcast radio system and its special appearance as old radio",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
-    "minimum-stability": "1.0.0",
+    "minimum-stability": "stable",
     "license": "MIT",
     "authors": [
         {
