@@ -1,7 +1,7 @@
 Live
 ====
 <center><img src="http://cimethod.com/web/images/old-radio.jpg"></center>
-It contain broadcast radio system and its special appreance as old radio
+It contain broadcast radio system and its special appearance as old radio
 
 Installation
 ------------

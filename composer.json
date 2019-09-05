@@ -1,9 +1,9 @@
 {
     "name": "shahimian/yii2-live",
-    "description": "It contain broadcast radio system and its special theme as old radio",
+    "description": "It contain broadcast radio system and its special appearance as old radio",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
-    "minimum-stability": "dev",
+    "minimum-stability": "1.0.0",
     "license": "MIT",
     "authors": [
         {
