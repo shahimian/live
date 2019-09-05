@@ -30,8 +30,8 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= \shahimian\live\Live::widget([
-    'username' => :sunglasses:,
-    'source' => :face_with_head_bandage:,
+    'username' => $username,
+    'source' => $source,
 ]); ?>
 ```
-For accessing to public property of user name and for further to information about source property , go ahead to (CentovaCast)[https://control.internet-radio.com:2199/login/index.php].
+For accessing to public property of user name and for further to information about source property , go ahead to [CentovaCast](https://control.internet-radio.com:2199/login/index.php) :sun_glasses:
