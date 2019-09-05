@@ -1,0 +1,160 @@
+div.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#old-radio {
+    direction: rtl;
+    background-image: url(images/old-radio.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div#old-radio > div {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+div#old-radio > div .time-pack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div#old-radio > div .logo {
+    justify-content: flex-end;
+}
+
+div.properties {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+
+div.properties > div > div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+div#old-radio .next-program, div#old-radio .title-program {
+    color: #9e0b0f;
+}
+
+div#old-radio .title {
+    text-align: center;
+}
+
+.button {
+    border: 2px solid #9e0b0f;
+    background: #fdc689;
+    background: -moz-linear-gradient(top, #fdc689 0%, #e79a28 100%);
+    background: -webkit-linear-gradient(top, #fdc689 0%,#e79a28 100%);
+    background: linear-gradient(to bottom, #fdc689 0%,#e79a28 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdc689', endColorstr='#e79a28',GradientType=0 );    box-shadow: 0 0 18px rgba(0, 0, 0, 0.35);
+    color: #9e0b0f;
+    width: auto;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin: 10px;
+    display: inline-block;
+}
+
+a, a:hover {
+    color: #9e0b0f;    
+    cursor: pointer;
+    text-decoration: none;
+}
+
+div.recent-tracks-list {
+    display: none;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 1em;
+}
+
+div.cc_recenttracks_list > div.cctrack {
+    margin: 10px auto;
+    width: 300px;
+}
+
+svg.close {
+    cursor: pointer;
+    transition: 200ms fill;
+}
+
+svg.close:hover {
+    fill: #ececec
+}
+
+@media all and (max-width: 800px) {
+    div.properties > div > div:nth-child(2) img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    div#old-radio {
+        width: 347px;
+        height: 200px;     
+    }
+
+    div#old-radio > div {
+        width: 210px;
+        margin: 35px 70px 0 0;
+        font-size: 12px;
+    }
+
+    .button {
+        height: 26px;        
+    }
+
+    .streams img {
+        width: 24px;
+    }
+
+    .logo img {
+        width: 32px;
+        margin: 4px 0 0 14px;
+    }
+
+    div.properties > div:first-child {
+        width: 100%;
+        margin: 0 5px;
+    }
+
+}
+
+@media all and (min-width: 800px) {
+    div#old-radio {
+        width: 746px;
+        height: 429px;
+    }
+
+    div#old-radio > div {
+        width: 430px;
+        margin: 75px 160px 0 0;
+        font-size: 18px;
+    }
+
+    .button {
+        height: 37px;        
+    }
+
+    .logo img {
+        width: 100px;
+        margin: 8px 0 0 8px;
+    }
+
+    div.properties > div:first-child {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+}
