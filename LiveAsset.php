@@ -9,7 +9,9 @@ class LiveAsset extends AssetBundle {
     public $sourcePath = '@vendor/shahimian/yii2-live/assets';
 
     public $css = [
-        'styles.css',
+        'themes/main.css',
+        'themes/default.css',
+        'themes/old-radio.css',
     ];
 
     public $js = [

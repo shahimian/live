@@ -17,7 +17,7 @@ $this->registerJs("$('svg.close, #recent-tracks-list').click(function(){ $('div.
     <div class="cc_recenttracks_list" data-username="<?= $username ?>">Please wait it is loading...</div>
 </div>
 <div class="main">
-    <div id="old-radio">
+    <div id="<?= $theme ?>">
         <div>
             <div class="title-program">Program name</div>
             <div class="properties">

@@ -1,0 +1,18 @@
+div#default {
+    display: flex;
+    background-color: gray;
+    width: 680px;
+    height: 320px;
+    margin: 1em;
+    border-radius: 3px;
+    box-shadow: 1px 6px 9px;
+    flex-direction: row;
+}
+
+@media all and (max-width: 800px) {
+ 
+}
+
+@media all and (min-width: 800px) {
+
+}

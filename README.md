@@ -1,6 +1,5 @@
 Live
 ====
-<center><img src="http://cimethod.com/web/images/old-radio.jpg"></center>
 It contain broadcast radio system and its special appearance as old radio
 
 Installation
@@ -32,6 +31,10 @@ Once the extension is installed, simply use it in your code by  :
 <?= \shahimian\live\Live::widget([
     'username' => $username,
     'source' => $source,
+    'theme' => 'default',
 ]); ?>
 ```
+
+`theme` is one of parameters of configure. It actually has two variable: 1. `old-radio` 2. `default`
+
 For accessing to public property of user name and for further to information about source property , go ahead to [CentovaCast](https://control.internet-radio.com:2199/login/index.php) :sun_glasses:
